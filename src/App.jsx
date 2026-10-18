@@ -10,8 +10,8 @@ import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Students from "./pages/Students";
 import Departments from "./pages/Departments";
-import Layout from "./components/Layout";
-import ProtectedRoute from "./components/ProtectedRoute";
+import Layout from "./Components/Layout";
+import ProtectedRoute from "./Components/ProtectedRoute";
 
 function App() {
     return (
