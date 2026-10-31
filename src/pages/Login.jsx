@@ -10,7 +10,7 @@ function Login() {
 
         try {
             const response = await axios.post(
-                "http://localhost:8080/auth/login",
+                "https://edutrack-backend-cx06.onrender.com/auth/login",
                 {
                     username: username,
                     password: password
